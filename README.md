@@ -4,11 +4,11 @@
 
 ---
 ### Инструкция по запуску проекта на Windows
-1. Установить Java SE Runtime Environment 8, а также Java SE Development Kit 8.  
-2. Установить ANTLR4, следуя инструкциям с [официального сайта](https://www.antlr.org)
+1. Установить **Java SE Runtime Environment 8**, а также **Java SE Development Kit 8**.  
+2. Установить **ANTLR4**, следуя инструкциям с [официального сайта](https://www.antlr.org)
 3. Скачать в папку с проектом файл **antlr-4.9.2-complete.jar**, создать папку **antlr4_runtime** и положить туда исходники с [официального репозитория](https://github.com/antlr/antlr4/tree/master/runtime/Cpp)  
-4. Далее необходимо сгенерировать исполняемые файлы на С++ для ANTLR. ` antlr -Dlanguage=Cpp Formula.g4  `
-5. Собрать проект с помощью Cmake.
+4. Далее необходимо сгенерировать исполняемые файлы на **С++** для **ANTLR**. ` antlr -Dlanguage=Cpp Formula.g4  `
+5. Собрать проект с помощью **CMake**.
 ---
 ### Использование Myxcel  
 - Пример заполнения листа значениями:
